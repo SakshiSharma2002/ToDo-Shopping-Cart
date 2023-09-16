@@ -1,0 +1,254 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling for the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* Styling for navigation links */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Styling for the main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styling for the To-Do list */
+  .todo-list {
+    margin-bottom: 20px;
+  }
+  
+  /* .todo-list form {
+    display: flex;
+    margin-bottom: 10px;
+  } */
+  
+  .todo-list input[type="text"] {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .todo-list button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the Shopping Cart */
+  .shopping-cart {
+    margin-bottom: 20px;
+  }
+  
+  /* .shopping-cart form {
+    display: flex;
+    margin-bottom: 10px;
+  } */
+  
+  .shopping-cart input[type="text"] {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .shopping-cart button {
+    padding: 8px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .shopping-cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shopping-cart li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the Fetch Data */
+  .fetch-data {
+    margin-bottom: 20px;
+  }
+  
+  .fetch-data p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+/* styles.css */
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the success message */
+.success-message {
+  color: #28a745;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* styles.css */
+
+/* Additional styles for the home page */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f2f2f2;
+}
+
+.hero-section {
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* styles.css */
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+}
+
+.todo-list li label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.todo-list li input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.todo-list li .todo-item.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
